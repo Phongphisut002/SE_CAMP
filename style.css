@@ -14,17 +14,17 @@ body {
 
 h1,
 .box {
-    color: #000000;
+    color: #ffffff;
     text-align: center;
     margin-bottom: 40px; 
 }
 
 .container {
     overflow: scroll;
-    max-height: 50px; 
+    max-height: 500px; 
     max-width: 100vw; 
     text-align: center;
-    background-color: #add5f8;
+    background: url('https://as1.ftcdn.net/jpg/02/87/80/16/220_F_287801666_61S03Al1VSLfI6wcQqY5YfEHhjdmshNo.jpg');
     border-radius: 15px;
 }
 

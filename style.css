@@ -3,29 +3,26 @@
 }
 
 body {
-    background-color: #15c1f0;
+    background-color: #c4c5eb;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
 }
-
-.container {
-    overflow: auto;
-    max-height: 100px;
-    max-width:200pv ;
-    text-align: center;
-    background-color: #ffffff; 
-    border-radius: 10px; 
-    box-shadow: 0 0 10px rgba(219, 62, 62, 0.1);
-}
-
 h1, .box {
-    color: #ed1919;
+    color: #000000;
     text-align: center;
 }
+.container {
+    overflow:scroll;
+    max-height: 50pv;
+    max-width:50pv ;
+    text-align: center;
+    background-color: #add5f8; 
 
+}
 form {
     margin-bottom: 20px; 
 }
@@ -37,12 +34,12 @@ input[type="number"] {
 input[type="submit"] {
     padding: 8px;
     cursor: pointer;
-    background-color: #4caf50; 
+    background-color: #a6a9a6; 
     color: #ffffff;
     border: none;
     border-radius: 5px;
 }
 
 input[type="submit"]:hover {
-    background-color: #45a049; 
+    background-color: #c4c5eb; 
 }

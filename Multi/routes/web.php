@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return 'hi';
+    return 'Hello';
 });
 
 Route::get('/my-route', function () {

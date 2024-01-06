@@ -9,10 +9,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
     <style>
        body {
-            background: url('https://i.pinimg.com/564x/0e/eb/22/0eeb2251003d1cfb9cdf8ac02ba4ee4f.jpg');
+            background: url('https://i.pinimg.com/564x/70/89/b8/7089b8f5419717b5b83e0f59b44a8102.jpg');
             background-size: cover;
-            background-color: rgba(255, 255, 255, 10);
-            color: #000000;
+            background-color:#ffffff05);
+            backdrop:blur(10px);
+            -webkit-backdrop-filter:blur(25px);
+
             display: flex;
             justify-content: center;
             align-items: center;
@@ -21,25 +23,11 @@
             font-family: 'Itim', cursive;
         }
 
-
         h1 {
             color: #000000;
             text-shadow: 3px 3px rgb(121, 118, 118);
             font-size: 34px;
             font-weight: bold;
-        }
-
-        table {
-            width:45%;
-            margin:auto;
-            border-collapse: collapse;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-
-        }
-
-        th, td {
-            border: 1px solid #040404;
-            padding: 10px;
         }
 
         div.HW {
@@ -50,7 +38,6 @@
             margin: auto;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
             border-radius: 20px 50px;
-
         }
     </style>
 </head>
@@ -60,14 +47,10 @@
         <?php
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $x = $_POST["myinputnumber"];
-            echo "<h1>ตารางสูตรคูณแม่ $x</h1>";
-            echo "<table>";
-            echo "<thead><tr><th>Multiplier</th><th>Result</th></tr></thead>";
-            echo "<tbody>";
+            echo "<h1>สูตรคูณแม่ $x</h1>";
             for ($i = 1; $i <= 24; $i++) {
-                echo "<tr><td>$x x $i</td><td>" . ($x * $i) . "</td></tr>";
+                echo "$x x $i = " . ($x * $i) . "<br>";
             }
-            echo "</tbody></table>";
         }
         ?>
     </div>

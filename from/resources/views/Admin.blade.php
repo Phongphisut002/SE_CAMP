@@ -4,7 +4,7 @@
     <div class="card-header">
         <h1 class="card-title">Workshop #HTML-FORM</h1>
     </div>
-    <form>
+    <form class="container-sm">
         <div class="card-body">
             <div class="form-row">
                 <div class="form-group col-md-6">
